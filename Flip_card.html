@@ -63,6 +63,7 @@ body {
   width: 500px;
   height: 500px;
   perspective: 1000px;
+  margin: 20px;
 }
 
 .flip-card-inner {
@@ -97,14 +98,22 @@ body {
   color: white;
   transform: rotateY(180deg);
 }
+#quadratino1{
+            background-color: #ffff;
+            width: 300px;
+            height: 110px;
+            margin: 10px;
+            padding: 10px;
+        }
+
 </style>
 </head>
 <body>
   <div class="topnav" id="myTopnav">
-    <a href="https://danymazze.github.io/tpsit/">Home</a>
+    <a href="pagina_index.html">Home</a>
     <a href="https://danymazze.github.io/tpsit/Flip_card.html" class="active">scheda studente</a>
     <a href="https://danymazze.github.io/tpsit/quadrati.html">i miei esercizi</a>
-    <a href="https://danymazze.github.io/tpsit/scheda_personale.html" > Autore Daniele</a>
+    <a href="https://danymazze.github.io/tpsit/scheda_personale.html?authuser=0" > Autore Daniele</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
     </a>
@@ -120,10 +129,13 @@ body {
     x.className = "topnav";
     }
   }
+
   </script>
 
-<h1>Scheda studente</h1>
+<div id="quadratino1">
+  <h1>Scheda studente</h1>
 <h3>scopri chi è questo ragazzo:</h3>
+</div>
 
 <div class="flip-card">
   <div class="flip-card-inner">
